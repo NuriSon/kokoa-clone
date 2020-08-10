@@ -4,16 +4,24 @@
 @import "variables.css";
 
 /* Components */
+
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/dot.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
 	color: rgb(25, 25, 25);
 	font-family: "Open Sans", sans-serif;
 	margin-bottom: 148px;
+}
+
+.main-screen {
+	padding: 0px 20px;
 }
