@@ -43,7 +43,7 @@
 }
 
 .user-component__column:last-child {
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.8);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -52,4 +52,23 @@
 .user-component__time {
 	margin-bottom: 10px;
 	display: block;
+}
+
+.user-component__text {
+	position: relative;
+}
+.user-component__notifiction {
+	color: tomato;
+	background-color: white;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	border: 1px solid rgb(255, 99, 71);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	position: absolute;
+	left: 160px;
+	top: 29px;
 }
